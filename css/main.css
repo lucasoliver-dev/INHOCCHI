@@ -153,15 +153,16 @@ Created by : luvi development
 }
 
 .navbar-expand-lg .navbar-logo  {
-    width:5rem;
+    width:7rem;
 }
 .header-navbar {
-    padding:0; 
+    padding:0;
+    
 }
 
 .header-navbar .navbar-brand{
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
     padding-right: 1rem;
     border-right: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -991,10 +992,10 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hov
 .header-section{
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
-.header .logo-dark, .header .bell-dark {
+.header .logo-light, .header .bell-dark {
     display: none
 }
-.header.switched-header .logo-dark, .header.switched-header .bell-dark {
+.header.switched-header .logo-light, .header.switched-header .bell-dark {
     display: block;
 }
 .header.switched-header .logo-light ,.header.switched-header .bell-light {
