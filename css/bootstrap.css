@@ -1,9 +1,4 @@
-!
- * Bootstrap v4.0.0 (https://getbootstrap.com)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -159,7 +154,7 @@ sup {
 }
 
 a {
-  color: #b5a46d;
+  color: #fd7e14;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -167,7 +162,7 @@ a {
 }
 
 a:hover {
-  color: #a29260;
+  color: #fd7e14;
 }
 
 a:not([href]):not([tabindex]) {
