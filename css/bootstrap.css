@@ -3881,6 +3881,8 @@ tbody.collapse.show {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: #000; /* Cor inicial do link */
+  transition: color 0.3s ease; /* Adiciona uma transição suave */
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -3888,7 +3890,7 @@ tbody.collapse.show {
 }
 
 .nav-link.disabled {
-  color: #6c757d;
+  color: var(--orange);
 }
 
 .nav-tabs {
@@ -4034,6 +4036,12 @@ tbody.collapse.show {
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  color: var(--orange); /* Cor inicial do texto */
+  transition: color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.nav-link {
+  color: var(--orange); /* Cor do texto ao passar o mouse */
 }
 
 .navbar-collapse {
@@ -4054,7 +4062,7 @@ tbody.collapse.show {
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(21, 42, 73, 0.5);
-border-color: #e3e3e3;
+  border-color: var(--orange);
   border-radius: 0.25rem;
 }
 
@@ -4435,7 +4443,7 @@ border-color: #e3e3e3;
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: var(--orange);
 }
 
 .navbar-dark .navbar-toggler {
