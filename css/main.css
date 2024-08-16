@@ -447,7 +447,7 @@ ul.instafeed-list li a{
      transform: translate3d(0, -5px, 0);
      -webkit-transform: translate3d(0, -5px, 0);
      -moz-transform: translate3d(0, -5px, 0);
-background-color: #ff6347;
+background-color: #ffff;
 border-color: #ff6347;
     color: #000;
 }
@@ -456,7 +456,7 @@ border-color: #ff6347;
     width: 2.5rem;
     height: 2.5rem;
     background-color: #ff6347;
-    border:1px solid #ff6347;
+    border:1px solid #000;
     text-align: center;
     right: 2.875rem;
     bottom: 3.6875rem;
