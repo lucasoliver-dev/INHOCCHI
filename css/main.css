@@ -447,22 +447,22 @@ ul.instafeed-list li a{
      transform: translate3d(0, -5px, 0);
      -webkit-transform: translate3d(0, -5px, 0);
      -moz-transform: translate3d(0, -5px, 0);
-background-color: #a29260;
-border-color: #9f8e59;
-    color: #ffffff;
+background-color: #ff6347;
+border-color: #ff6347;
+    color: #000;
 }
 .scroll-to-top {
     position: fixed;
     width: 2.5rem;
     height: 2.5rem;
-    background-color: #b5a46d;
-    border:1px solid #b5a46d;
+    background-color: #ff6347;
+    border:1px solid #ff6347;
     text-align: center;
     right: 2.875rem;
     bottom: 3.6875rem;
     padding-top: .65rem;
     z-index: 100;
-    color: #ffffff;
+    color: #000;
     font-size: 0.75rem;
     border-radius: 0.25rem;
 }
@@ -473,8 +473,8 @@ border-color: #9f8e59;
 /*Miscellaneous*/
 
 ::-moz-selection {
-    background: #b5a46d;
-    color: #ffffff;
+    background: #ff6347;
+    color: #000;
 }
 .background-img img {
      display: none;
