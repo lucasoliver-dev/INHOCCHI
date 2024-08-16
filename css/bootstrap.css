@@ -2504,6 +2504,20 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+
+.btn-orange-dark {
+  background-color: var(--orange);
+  color: var(--dark);
+  border-color: var(--orange);
+}
+
+.btn-orange-dark:hover {
+  background-color: var(--dark);
+  color: var(--orange);
+  border-color: var(--dark);
+}
+
+
 .btn-primary {
   color: #ffffff;
   background-color: #b5a46d;
