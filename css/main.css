@@ -203,12 +203,6 @@ Created by : luvi development
     display: none;
 }
 
-.main-slider .background-img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden; /* Garante que a imagem não vaze fora do contêiner */
-}
 
 .main-slider .slides li{
   
