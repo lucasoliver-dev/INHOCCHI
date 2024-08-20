@@ -210,8 +210,8 @@ Created by : luvi development
 
 .main-slider .background-img {
     position: absolute;
-    width: 70vw;
-    height: 100vh; /* Use altura total da viewport, se aplicável */
+    width: 100vw;
+    height: 80vh; /* Use altura total da viewport, se aplicável */
     overflow: hidden;
 }
 
