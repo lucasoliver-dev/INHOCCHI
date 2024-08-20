@@ -205,25 +205,35 @@ Created by : luvi development
 
 
 .main-slider .slides li {
-    padding: 0; /* Remova o padding se possível */
+    padding: 0; /* Remova o padding para evitar espaço extra */
 }
 
 .main-slider .background-img {
     position: absolute;
     width: 100vw;
-    height: 100vh; /* Use altura total da viewport, se aplicável */
-    overflow: cover;
+    height: 100vh; /* Use altura total da viewport */
+    overflow: hidden; /* Esconde qualquer conteúdo que vaze */
 }
 
 .main-slider .background-img img {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 80%;
-    height: 100%;
-    object-fit: contain;
+    width: 100%; /* Ajusta a largura para preencher o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Cobrir o contêiner mantendo a proporção */
     transform: translate(-50%, -50%);
 }
+
+/* Regras específicas para mobile */
+@media (max-width: 767px) {
+    .main-slider .background-img img {
+        width: 100%; /* Preenche a largura no mobile */
+        height: auto; /* Mantém a proporção */
+        object-fit: contain; /* Contém a imagem dentro do contêiner */
+    }
+}
+
 
 .header-navbar-nav .dropdown-item{
     color: #717171;
