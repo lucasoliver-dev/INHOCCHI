@@ -212,7 +212,7 @@ Created by : luvi development
     position: absolute;
     width: 100vw;
     height: 100vh; /* Use altura total da viewport, se aplicável */
-    overflow: hidden;
+    overflow: cover;
 }
 
 .main-slider .background-img img {
