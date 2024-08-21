@@ -208,22 +208,6 @@ Created by : luvi development
     padding: 0; /* Remova o padding para evitar espaço extra */
 }
 
-.main-slider .background-img {
-    position: absolute;
-    width: 100vw;
-    height: 100vh; /* Use altura total da viewport */
-    overflow: hidden; /* Esconde qualquer conteúdo que vaze */
-}
-
-.main-slider .background-img img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%; /* Ajusta a largura para preencher o contêiner */
-    height: 100%;
-    object-fit: cover; /* Cobrir o contêiner mantendo a proporção */
-    transform: translate(-50%, -50%);
-}
 
 /* Regras específicas para mobile */
 @media (max-width: 767px) {
