@@ -220,7 +220,7 @@ Created by : luvi development
     top: 50%;
     left: 50%;
     width: 100%; /* Ajusta a largura para preencher o contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    height: 100%;
     object-fit: cover; /* Cobrir o contêiner mantendo a proporção */
     transform: translate(-50%, -50%);
 }
