@@ -203,9 +203,27 @@ Created by : luvi development
     display: none;
 }
 
-
 .main-slider .slides li {
     padding: 0; /* Remova o padding para evitar espaço extra */
+    position: relative; /* Certifique-se de que o elemento li tenha um contexto de posicionamento */
+}
+
+.main-slider .background-img {
+    position: relative; /* Mude para relativo para testar */
+    width: 100vw;
+    height: 100vh; /* Use altura total da viewport */
+    overflow: hidden; /* Esconde qualquer conteúdo que vaze */
+    display: block; /* Garante que a div seja exibida */
+}
+
+.main-slider .background-img img {
+    position: absolute; /* Mantenha a imagem posicionada no centro */
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Ajusta a largura para preencher o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Cobrir o contêiner mantendo a proporção */
+    transform: translate(-50%, -50%);
 }
 
 
