@@ -278,7 +278,7 @@ Created by : luvi development
 
  .reservation-card-container {
     position: relative;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid #ff6347;
     display: table;
     height: 100%;
     text-align: center;
